@@ -1,0 +1,88 @@
+<HTML>
+<HEAD>
+<TITLE>Help Section</TITLE>
+</HEAD>
+
+<BODY>
+<div id="image" style="background: url(15.jpg); width: 100%;  background-size: 100%;">
+<br><br>	
+<H1><CENTER><font color="Green">User Documentation</font></CENTER></H1>
+
+<center><table >
+<tr><td></td><td></td><td></td><td></td><td></td></tr>     
+<tr><td><H2> Installation: </H2></td><td></td><td></td></tr>
+<tr><td></td><td></td><td>Step 1: </td><td>compile the GetOnePic.java and PictureBrowse.java in </td></tr>
+<tr><td></td><td></td><td></td><td><font color="purple">your_home_dir/catalina/webapps/proj1/WEB-INF/classes </font></td><td></td></tr>
+<tr><td></td><td></td><td>Step 2: </td><td>start sqlplus load files:  <font color="blue">setup_new.sql, data.sql, triger.sql,</font> </td><td></tr>
+<tr><td></td><td></td><td></td><td><font color="blue">myIndex.sql, updateIndex.sql</font></td><td></td></tr>
+<tr><td></td><td></td><td>Step 3: </td><td>run 'starttomcat' in terminal</td></tr>
+<tr><td></td><td></td><td>Step 4: </td><td>Use the following address in your browser to access the html file:</td></tr>
+<tr><td></td><td></td><td></td><td><font color="maroon">http://ui???.cs.ualberta.ca:"your-first-port-number"/proj1/oracle_login.html</font></td><td></td></tr>
+<tr><td></td><td></td><td>Step 5: </td><td>input your oracle database account information into the webpage</td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+
+<tr><td><H2>Login:</H2></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>-----either your user name or password is not supposed to longer </td><td></td></tr>
+<tr><td></td><td></td><td></td><td>than 24 characters,then click the Login button.</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>-----one can modify his/her account password and personal information with saving changes</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>-----one can logout his/her account by clicking the "Log Out" button</td><td></td></tr>
+
+<tr><td><H2>User Management: </H2></td><td></td><td></td><td></td></tr>
+<tr><td><H2></H2></td><td>Create a new user:</td><td></td><td></td><td></td></tr>
+<tr><td><H2></H2></td><td></td><td><b>Personal Information:</b></td><td>make sure the user's personal information is alread existed if you want to skip this section.</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>Otherwise, you need to enter the user's personal information according the format:</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>-----either your first name or last name suppose no longer than than 24 characters</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>-----your personal id must be integer</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>-----either your address or email is not supposed to longer than 128 characters</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>-----your phone number is not supposed to longer than 10 integers</td><td></td></tr>
+<tr><td></td><td></td><td><b>Account Information:</b></td><td>if you skipped the personal information page, then you can enter existed person ID.</td></tr>
+<tr><td></td><td></td><td></td><td>After that, please enter the new user account information.</td></tr>
+<tr><td></td><td></td><td><b>Family Doctor:</b></td><td>You can build a doctor-patient relationship or skip this page.</td></tr>
+<tr><td></td><td></td><td></td><td>Click "finish adding" to confirm the creation.</td></tr>
+<tr><td><H2></H2></td><td>Update user information:</td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td><b>Search:</b></td><td>a valid user name is required before any updating.</td></tr>
+ <tr><td></td><td></td><td></td><td>If you know the person ID but don't know his/her user names, </td></tr>
+ <tr><td></td><td></td><td></td><td>you can search user names by entering the person_id to the text box on the right-hand side.</td></tr>
+<tr><td></td><td></td><td><b>Updating:</b></td><td>-----either your first name or last name suppose no longer than than 24 characters</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>-----your personal id must be integer</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>-----either your address or email is not supposed to longer than 128 characters<"/cshome/xiaocong/workspace/391/proj1/chooseUpdateUser.html"/td><td></td></tr>
+<tr><td></td><td></td><td></td><td>-----your phone number is not supposed to longer than 10 integers</td><td></td></tr>
+<tr><td></td><td></td><td></td><td>-----one can rebuild the current user's doctor-patient relationship</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+
+<tr><td><H2> Report Generation: </H2></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>-----A Diagnosis shorter than 128 characters is required</td></tr>
+<tr><td></td><td></td><td></td><td>-----A time interval is required!(from a earlier date to a later date).Submit afterward</td></tr>
+
+<tr><td><H2> Uploading: </H2></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>A valid relationship between the given patient and doctor is required while the rest is not.</td></tr>
+<tr><td></td><td></td><td></td><td>The uploading part allows user to upload one or more images for the current record</td></tr>
+<tr><td><H2> Search Engine: </H2></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td>-----a user can search by a key word or a list of key words(seperated by ",")</td></tr>
+<tr><td></td><td></td><td></td><td>-----By selecting different type of result orders, a user can display results that are</td></tr>
+<tr><td></td><td></td><td></td><td>ranked by time (most-recent-first or most-recent-last)or ranked by frequency (default).</td></tr>
+<tr></tr>
+<tr><td></td><td></td><td></td><td>One can view a list of medical images(thumbnails) of a record by clicking the link </td></tr>
+<tr><td></td><td></td><td></td><td>"Pictures", which can be further viewed by clicking the images themselves(normal size) </td></tr>
+<tr><td></td><td></td><td></td><td>or the links below them(full size).</td></tr>
+<tr><td><H2> Data Analysis: </H2></td><td></td><td></td><td></td></tr>
+
+
+<tr><td></td><td>Analysis by particular value(s):</td><td></td><td>-----All values are <font color="red">optional</font>, you can leave some values blank or default if you don't want  </td></tr>
+<tr><td></td><td></td><td></td><td>to specify those values</td></tr>
+<tr><td></td><td></td><td></td><td>-----A time interval should from a earlier date to a later date</td></tr>
+<tr><td></td><td>Analysis by attribute(s):</td><td></td><td>-----All attributes are <font color="red">optional</font>, you can leave some attribute blank or default if you don't want  </td></tr>
+<tr><td></td><td></td><td></td><td>to specify those attribute</td></tr>
+
+
+<tr><td><H2> Others: </H2></td><td></td><td></td><td>Please <font color="green">feel free </font>to contact the administrator whenever you meet some difficuilties</td></tr>
+</table>
+
+
+<P><CENTER></P>
+<br><br>
+
+</div>
+</CENTER>
+</BODY>
+</HTML>
