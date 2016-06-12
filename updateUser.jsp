@@ -303,8 +303,8 @@
 			out.println("<body><div style='background: url(10.jpg); width: 100%; height: 100%; background-size: 100%;'>");
 			out.println("<form action='finishUpdateUser.jsp' name='updateUser' onsubmit='return(validate());'>");
 			out.println("<table  cellpadding='2' align='center' cellspacing='2'>");
-			out.println("<tr><td colspan=2><center><font size=4><b>User Infomation Update Form</b></font></center></td></tr>");
-			out.println("<tr><td colspan=2><center>Account Infomation</center></td></tr>");
+			out.println("<tr><td colspan=2><center><font size=4><b>User Information Update Form</b></font></center></td></tr>");
+			out.println("<tr><td colspan=2><center>Account Information</center></td></tr>");
 			out.println("<tr><td colspan=2><hr></td></tr>");
 			if(request.getParameter("search") != null)
 				out.println("<tr><td>User Name:</td><td><input type=text name='username' id='username' size='30' value='"+userName+"' maxlength=24></td></tr>");
@@ -331,7 +331,7 @@
 					out.println(">Radiologist</option><option value='p'");
 				out.println(">Patient</option></select></td></tr>");
 			}
-			out.println("<tr><td colspan=2><hr></td></tr><tr><td colspan=2><center>personal Infomation</center></td></tr>");
+			out.println("<tr><td colspan=2><hr></td></tr><tr><td colspan=2><center>personal Information</center></td></tr>");
 			out.println("<tr><td colspan=2><hr></td></tr>");
 			out.println("<tr><td>First Name:</td><td><input type=text name=firstname id='firstname' size='30' value='"+firstName+"' maxlength=24></td></tr>");
 			out.println("<tr><td>Last Name:</td><td><input type='text' name='lastname' id='lastname' size='30' value='"+lastName+"' maxlength=24></td></tr>");
